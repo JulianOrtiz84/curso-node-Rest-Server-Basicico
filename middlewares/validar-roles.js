@@ -36,7 +36,7 @@ const tieneRole = ( ...roles ) => {
                 msg: `${nombre} no tiene los permisos necesarios - No puede hacer esto`
             });
         }
-----
+
         next();
     }
 }
